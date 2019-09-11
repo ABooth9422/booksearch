@@ -7,6 +7,7 @@ p{
 img{
     box-shadow:black 3px 3px 3px;
 }
-img:hover{
-    transform: rotate3d()
+img:hover {
+    transform: rotate3d(1, 0, 0, 45deg);
+    transition:8s;
 }
